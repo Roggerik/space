@@ -1,0 +1,199 @@
+
+.containerIndex{
+  background: url('assets/home/background-home-tablet.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*header--logo--navbar*/
+
+.navbar:after{
+  display: none;
+}
+
+.navbar{
+  width: 55%;
+}
+
+.nav_list{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.nav__listItem{
+  margin-left: 20px;
+}
+  
+.nav__listItem:first-child{
+  margin-left: 30px;
+}
+  
+.nav__listItem .item{
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.nav__listItem .item span{
+  display: none;
+}
+
+/* main-principal--Index */
+
+.main__principal{
+  flex-direction: column;
+  text-align: center;
+}
+
+.section__texto{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section__texto p{
+  width: 100%;
+  padding: 0 35px;
+  margin-top: 50px;
+  
+}
+
+.explore{
+  margin-left: 0px;
+}
+
+/*PAGE DESTINATION*/
+
+.containerDestination{
+  background: url('assets/destination/background-destination-tablet.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+}
+
+.main__destination{
+  flex-direction: column;
+}
+
+.section__titlemenu{
+  width: 100%;
+}
+
+.section__title--img{
+  position: absolute;
+  right: -150px;
+  bottom: -150px;
+  width: 600px;
+  height: 600px;
+}
+
+.section__rigth{
+  margin-left: -100px;
+}
+
+/*PAGE CREW*/
+.containerCrew{
+  background: url('assets/crew/background-crew-tablet.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main__crew{
+  margin-top:50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.section__text{
+  width: 70%;
+}
+
+.roleA{
+  text-align: right;
+  margin-top: 0;
+}
+
+.nameA{
+  text-align: right;
+}
+
+.bioA{
+  text-align: right;
+  margin-left: 100px;
+}
+
+.slider{
+  width: 100px;
+  height: 250px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.circulo{
+  width: 15px;
+  height: 15px;
+  margin: 20px auto;
+}
+
+.circuloActivo{
+  background: var(--white);
+  transform: scale(1.7);
+  height: 20px;
+  width: 5px;
+  border-radius: 10px;
+}
+
+.imgLeft__crew{
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.img--crewU{
+  width: 40%;
+}
+
+/*PAGE TECHNOLOGY*/
+.containerTechnology{
+  background: url('assets/technology/background-technology-tablet.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.title__technology{
+  margin-left: 90px;
+  width: 100%;
+}
+
+.section__text{
+  margin-left: 80px;
+}
+
+.numbers{
+  width: 300px;
+  margin-right: 50px;
+}
+
+.img__technology{
+  width: 50%;
+  height: 35%;
+  bottom: 3%;
+}

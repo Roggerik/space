@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styletablet.css" media="(min-width:765px) and (max-width:1024px)">
+  <link rel="stylesheet" href="stylemobil.css" media="(min-width:360px) and (max-width:764px)">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+
+  <div class="containerCrew">
+    <header>
+      <img src="assets/shared/logo.svg" alt="" class="logo">
+      <nav class="navbar">
+        <ul class="nav_list">
+          <li class="nav__listItem"><a href="index.html" class="item"><span>00</span> Home</a></li>
+          <li class="nav__listItem"><a href="destination-moon.html" class="item"><span>01</span> Destination</a></li>
+          <li class="nav__listItem"><a href="#" class="item menuActive"><span>02</span> Crew</a></li>
+          <li class="nav__listItem"><a href="technology-vehicle.html" class="item"><span>03</span> Technology</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="menuHamburger">
+      <div class="hamburguerMenu"></div>
+      <nav class="menu__navbar">
+        <ul class="menu__nav_list">
+          <li class="menu__nav__listItem"><a href="index.html" class="menu__item"><span>00</span> Home</a></li>
+          <li class="menu__nav__listItem"><a href="destination-moon.html" class="menu__item"><span>01</span> Destination</a></li>
+          <li class="menu__nav__listItem"><a href="crew-commander.html" class="menu__item"><span>02</span> Crew</a></li>
+          <li class="menu__nav__listItem"><a href="technology-vehicle.html" class="menu__item"><span>03</span> Technology</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="main__crew">
+      <section class="section__text ">
+        <h2 class="title__menu title_crew"><span>02</span>Meet your crew</h2>
+      </section>
+      <img class="imgLeft__crew" src="assets/crew/image-victor-glover.webp" alt="">
+
+    </main>
+  
+  
+  
+  <div class="slider">
+    <a href="crew-commander.html"><div class="circulo "></div></a>
+    <a href="crew-engineer.html"><div class="circulo"></div></a>
+    <a href="crew-pilot.html"><div class="circulo circuloActivo"></div></a>
+    <a href="crew-specialist.html"><div class="circulo"></div></a>
+  </div>
+  
+  
+  </div>
+
+
+<script src="main.js"></script>
+<script src="newJava.js"></script>
+<script src="data.json"></script>
+<script>
+  crearDatos("Pilot");
+</script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styletablet.css" media="(min-width:765px) and (max-width:1024px)">
+  <link rel="stylesheet" href="stylemobil.css" media="(min-width:360px) and (max-width:764px)">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+  <div class="containerDestination">
+    <header>
+      <img src="assets/shared/logo.svg" alt="" class="logo">
+      <nav class="navbar">
+        <ul class="nav_list">
+          <li class="nav__listItem"><a href="index.html" class="item "><span>00</span> Home</a></li>
+          <li class="nav__listItem"><a href="destination-moon.html" class="item menuActive"><span>01</span> Destination</a></li>
+          <li class="nav__listItem"><a href="crew-commander.html" class="item"><span>02</span> Crew</a></li>
+          <li class="nav__listItem"><a href="technology-vehicle.html" class="item"><span>03</span> Technology</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="menuHamburger">
+      <div class="hamburguerMenu"></div>
+      <nav class="menu__navbar">
+        <ul class="menu__nav_list">
+          <li class="menu__nav__listItem"><a href="index.html" class="menu__item"><span>00</span> Home</a></li>
+          <li class="menu__nav__listItem"><a href="destination-moon.html" class="menu__item"><span>01</span> Destination</a></li>
+          <li class="menu__nav__listItem"><a href="crew-commander.html" class="menu__item"><span>02</span> Crew</a></li>
+          <li class="menu__nav__listItem"><a href="technology-vehicle.html" class="menu__item"><span>03</span> Technology</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="main__destination">
+      <section class="section__titlemenu">
+        <h2 class="title__menu"><span>01</span>Pick your destination</h2>
+        <img class="section__title--img" src="assets/destination/image-moon.webp" alt="">
+      </section>
+
+      <section class="section__rigth">
+        <nav class="navbar__rigth">
+          <ul class="list__rigth">
+            <li class="listItem__rigth"><a href="destination-moon.html" class="item__rigth menuActive">Moon</a></li>
+            <li class="listItem__rigth"><a href="destination-mars.html" class="item__rigth">Mars</a></li>
+            <li class="listItem__rigth"><a href="destination-europa.html" class="item__rigth">Europa</a></li>
+            <li class="listItem__rigth"><a href="destination-titan.html" class="item__rigth">Titan</a></li>
+          </ul>
+        </nav>
+        
+      </section>
+    </main>
+
+  
+    
+  </div>
+
+<script src="main.js"></script>
+<script src="newJava.js"></script>
+<script src="data.json"></script>
+<script>
+  crearDatos("Moon");
+</script>
+</body>
+</html>
